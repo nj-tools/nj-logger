@@ -1,0 +1,44 @@
+{
+  "name": "nj-logger",
+  "version": "1.3.2",
+  "description": "Lightweight Node.js logger with JSON output, Express middleware, and optional native IPC transport.",
+  "author": "Nikolai Jensen <nikolai@njtools.dev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nj-tools/nj-logger.git"
+  },
+  "homepage": "https://github.com/nj-tools/nj-logger#readme",
+  "bugs": {
+    "url": "https://github.com/nj-tools/nj-logger/issues"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "node",
+    "express",
+    "http",
+    "native-transport"
+  ],
+  "license": "MIT",
+  "sideEffects": true,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "typescript": "5.7.2"
+  }
+}
+
